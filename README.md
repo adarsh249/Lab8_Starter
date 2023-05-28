@@ -1,1 +1,5 @@
 # Lab 8 - Starter
+1. You would want your tests within a Github action that runs whenever code is pushed. This is because first, the tests are automated, so manually doing them would make no sense as developers may forget to manually test their code. Running them after all development is created is also not a great idea because there may be errors in early commits that may have ruined code and caused a lot more problems.
+2. Yes.
+3. Yes because unit tests will verify if the user has formatted their message correctly (write), depending on the type of messaging application it is. Also, it can be used to see if the sent message has sent properly. (send). In addtion, changing other features in this application won't affect the non-related unit tests.
+4. No, because it would make more sense to use Pupeteer here. For example, what does the user's screen look like if they input more than 80 characters.
